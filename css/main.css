@@ -4,55 +4,46 @@
    Author's custom styles
    ========================================================================== */
 
-	body{
-		
-		/*background: url(../img/paran.jpg);
-		background-image:  url(../img/paran.jpg);*/
-		background-color:#333333;
-		height: 100%;
-		width: 100%;
-		
+	body {
+				/*background:url(../img/paran.jpg);	background-image:url(../img/paran.jpg);*/
+	background-color:#333333;
+		height:100%;
+		width:100%;
 	}
 	
-	nav{ 
-		
-		height: 6em;
-		color: yellow;
-			
+	nav {
+					height:6em;
+		color:yellow;
 	}
 	
+	.j {
+		background-color:white;
+		height:16em;
+		width:70%;
+		margin-top:5%
+	}
 	
-
-   .j{
-
-   	background-color: white;
-   	height:16em;
-   	width: 70%;
-   	margin-top: 5%
-    }
-
-
-
-
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		
-		.j{	background-color:yellow;}
-}*/
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-      
-      .j{   background-color:yellow;
-            width: 100%;
-
-      }
-}
-
-/*http://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
-
-
-
-
-
-
-
-
+	.carousel .one {
+		background:url(../img/a1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	.carousel .two {
+		background:url(../img/b1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	.carousel .three {
+		background:url(../img/c1.jpg);
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+	
+	/*@media only screen and (min-device-width:320px) and (max-device-width:480px){			.j{background-color: yellow;}}*/
+	@media only screen and (min-width:320px) and (max-width:480px) {
+		.j {
+			background-color:yellow;
+			width: 100%;
+		}
+	}
+	/*http://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
